@@ -1,0 +1,234 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.app-header {
+  height: 100%;
+  width: 100%;
+  background-color: #021f92;
+  color: white;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.app-header p {
+  font-size: 16px;
+}
+
+.inputs-container {
+  margin: 20px 0;
+}
+
+.inputs-container span {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.inputs-container input {
+  margin: 0 5px;
+  padding: 10px;
+  width: 80px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #cccccc8e;
+  border-radius: 5px;
+}
+
+.result-container {
+  margin: 50%, 0;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px; /* Aumentar o tamanho da fonte */
+  color: #ffffff;
+  background-color: #021f92;
+  border: 4px solid #0084ff;
+  border-radius: 10px;
+  width: 220px; /* Aumentar a largura */
+  height: 60px; /* Aumentar a altura */
+  line-height: normal;
+  text-align: center;
+  word-wrap: break-word;
+  overflow: hidden;
+  box-shadow: 0 0 20px #bfefff; /* Slightly increase the shadow intensity */
+  animation: glow 1.5s infinite alternate;
+}
+
+.buttons-container {
+  margin: 20px 0;
+}
+
+.sort-button,
+.reset-button {
+  background-color: #021f92;
+  color: white;
+  border: none;
+  border-radius: 1px;
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset-button {
+  background-color: #00b050;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.history-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Aumentar o espaçamento entre o título e os itens */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.history-container::before {
+  content: "Histórico de Nomes Sorteados:";
+  font-size: 20px; /* Aumentar o tamanho da fonte para maior destaque */
+  font-weight: bold;
+  color: #021f92;
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: underline; /* Adicionar sublinhado para destaque */
+}
+
+.history-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00b050;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  width: 120px;
+  height: 40px;
+  line-height: normal;
+  text-align: center;
+  word-wrap: break-word;
+  overflow: hidden;
+  box-shadow: 0 0 5px #00b050; /* Adicionar sombra para destaque */
+  
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.app-header {
+  background-color: #021f92;
+  color: white;
+  padding: 20px;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.app-header p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.inputs-container {
+  margin: 20px 0;
+}
+
+.inputs-container span {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.inputs-container input {
+  margin: 0 5px;
+  padding: 10px;
+  width: 80px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px; /* Aumentar o tamanho da fonte */
+  color: #ffffff;
+  background-color: #021f92;
+  border: 4px solid #1200b4;
+  border-radius: 10px;
+  width: 220px; /* Aumentar a largura */
+  height: 60px; /* Aumentar a altura */
+  line-height: normal;
+  text-align: center;
+  word-wrap: break-word;
+  overflow: hidden;
+  box-shadow: 0 0 20px #bfefff; /* Slightly increase the shadow intensity */
+  animation: glow 1.5s infinite alternate;
+}
+
+.buttons-container {
+  margin: 20px 0;
+}
+
+.sort-button,
+.reset-button {
+  background-color: #021f92;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset-button {
+  background-color: #00b050;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 15px #add8e6, 0 0 25px #add8e6, 0 0 35px #add8e6;
+  }
+  100% {
+    box-shadow: 0 0 25px #bfefff, 0 0 35px #bfefff, 0 0 45px #bfefff;
+  }
+}
+
