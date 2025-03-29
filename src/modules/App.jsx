@@ -53,9 +53,9 @@ function App() {
     "Sueli",
     "Tereza",
     "Thalia",
-    "Tiago",
     "Verônica",
     "Zilma",
+"Adenilton",
   ];
 
   // Função para mudar o valor mínimo
