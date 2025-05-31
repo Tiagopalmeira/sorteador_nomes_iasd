@@ -19,7 +19,6 @@ function App() {
     "Diana",
     "Edelzuita",
     "Elaine",
-    "Emanuela",
     "Emília",
     "Evile",
     "Ezequias",
@@ -29,7 +28,6 @@ function App() {
     "Isabelly",
     "Jeová",
     "Joana Angélica",
-    "Joana Maria",
     "Joselia",
     "Kelvin",
     "Luis Emanuel",
@@ -49,7 +47,6 @@ function App() {
     "Sonia",
     "Sueli",
     "Tereza",
-    "Verônica",
     "Zilma",
 "Adenilton",
   ];
